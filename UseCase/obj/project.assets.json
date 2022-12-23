@@ -1,29 +1,12 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "Entity/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Entity.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Entity.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "Entity/1.0.0": {
-      "type": "project",
-      "path": "../steelchemquality/Entity.csproj",
-      "msbuildProject": "../steelchemquality/Entity.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Entity >= 1.0.0"
+      "C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj"
     ]
   },
   "packageFolders": {
@@ -90,5 +73,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "找不到專案 'C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj'。請確定專案參考有效，且該專案檔存在。",
+      "libraryId": "C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Wx/5cuMx/bstH95uPfzE5WBdek8fXKYRT0Ui60jgF1MXKL4fpNMI7Rvs3XQIenNZmVypKU9ntqxx+OlHoTd3oA==",
-  "success": true,
+  "dgSpecHash": "MB71qmKWB+HSxTJdx1CZPX2nR6nrRfFCu1uNW5u1d8XxSPGDREoymzzi8I4sSdubWbl4q7LvmY+AdQ99i6+kXQ==",
+  "success": false,
   "projectFilePath": "C:\\Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "找不到專案 'C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj'。請確定專案參考有效，且該專案檔存在。",
+      "libraryId": "C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
