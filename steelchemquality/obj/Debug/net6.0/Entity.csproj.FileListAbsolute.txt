@@ -1,0 +1,12 @@
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\bin\Debug\net6.0\Entity.deps.json
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\bin\Debug\net6.0\Entity.dll
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\bin\Debug\net6.0\Entity.pdb
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net6.0\Entity.csproj.AssemblyReference.cache
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net6.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net6.0\Entity.AssemblyInfoInputs.cache
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net6.0\Entity.AssemblyInfo.cs
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net6.0\Entity.csproj.CoreCompileInputs.cache
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net6.0\Entity.dll
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net6.0\refint\Entity.dll
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net6.0\Entity.pdb
+C:\Ryan_Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net6.0\ref\Entity.dll
