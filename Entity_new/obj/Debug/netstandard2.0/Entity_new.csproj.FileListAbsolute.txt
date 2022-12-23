@@ -1,0 +1,9 @@
+C:\Workspace\Branches\steelchemquality\Entity_new\bin\Debug\netstandard2.0\Entity_new.deps.json
+C:\Workspace\Branches\steelchemquality\Entity_new\bin\Debug\netstandard2.0\Entity_new.dll
+C:\Workspace\Branches\steelchemquality\Entity_new\bin\Debug\netstandard2.0\Entity_new.pdb
+C:\Workspace\Branches\steelchemquality\Entity_new\obj\Debug\netstandard2.0\Entity_new.csprojAssemblyReference.cache
+C:\Workspace\Branches\steelchemquality\Entity_new\obj\Debug\netstandard2.0\Entity_new.AssemblyInfoInputs.cache
+C:\Workspace\Branches\steelchemquality\Entity_new\obj\Debug\netstandard2.0\Entity_new.AssemblyInfo.cs
+C:\Workspace\Branches\steelchemquality\Entity_new\obj\Debug\netstandard2.0\Entity_new.csproj.CoreCompileInputs.cache
+C:\Workspace\Branches\steelchemquality\Entity_new\obj\Debug\netstandard2.0\Entity_new.dll
+C:\Workspace\Branches\steelchemquality\Entity_new\obj\Debug\netstandard2.0\Entity_new.pdb

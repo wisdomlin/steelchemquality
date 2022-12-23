@@ -1,32 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase.Test\\UseCase.Test.csproj": {}
+    "C:\\Workspace\\Branches\\steelchemquality\\UseCase.Test\\UseCase.Test.csproj": {}
   },
   "projects": {
-    "C:\\Ryan_Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj": {
+    "C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj",
+        "projectUniqueName": "C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj",
-        "packagesPath": "C:\\Users\\ryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\steelchemquality\\obj\\",
+        "projectPath": "C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj",
+        "packagesPath": "C:\\Users\\beck1\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beck1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,16 +40,15 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,36 +57,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase.Test\\UseCase.Test.csproj": {
+    "C:\\Workspace\\Branches\\steelchemquality\\UseCase.Test\\UseCase.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase.Test\\UseCase.Test.csproj",
+        "projectUniqueName": "C:\\Workspace\\Branches\\steelchemquality\\UseCase.Test\\UseCase.Test.csproj",
         "projectName": "UseCase.Test",
-        "projectPath": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase.Test\\UseCase.Test.csproj",
-        "packagesPath": "C:\\Users\\ryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase.Test\\obj\\",
+        "projectPath": "C:\\Workspace\\Branches\\steelchemquality\\UseCase.Test\\UseCase.Test.csproj",
+        "packagesPath": "C:\\Users\\beck1\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Branches\\steelchemquality\\UseCase.Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beck1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj": {
-                "projectPath": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj"
+              "C:\\Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj": {
+                "projectPath": "C:\\Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj"
               }
             }
           }
@@ -96,8 +101,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -122,8 +127,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -132,36 +136,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj": {
+    "C:\\Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj",
+        "projectUniqueName": "C:\\Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj",
         "projectName": "UseCase",
-        "projectPath": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj",
-        "packagesPath": "C:\\Users\\ryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\UseCase\\obj\\",
+        "projectPath": "C:\\Workspace\\Branches\\steelchemquality\\UseCase\\UseCase.csproj",
+        "packagesPath": "C:\\Users\\beck1\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Branches\\steelchemquality\\UseCase\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beck1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Ryan_Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj": {
-                "projectPath": "C:\\Ryan_Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj"
+              "C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj": {
+                "projectPath": "C:\\Workspace\\Branches\\steelchemquality\\steelchemquality\\Entity.csproj"
               }
             }
           }
@@ -173,16 +180,15 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -191,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

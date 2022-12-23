@@ -1,0 +1,12 @@
+C:\Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net5.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net5.0\Entity.AssemblyInfoInputs.cache
+C:\Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net5.0\Entity.AssemblyInfo.cs
+C:\Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net5.0\Entity.csproj.CoreCompileInputs.cache
+C:\Workspace\Branches\steelchemquality\steelchemquality\bin\Debug\net5.0\Entity.deps.json
+C:\Workspace\Branches\steelchemquality\steelchemquality\bin\Debug\net5.0\Entity.dll
+C:\Workspace\Branches\steelchemquality\steelchemquality\bin\Debug\net5.0\ref\Entity.dll
+C:\Workspace\Branches\steelchemquality\steelchemquality\bin\Debug\net5.0\Entity.pdb
+C:\Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net5.0\Entity.dll
+C:\Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net5.0\ref\Entity.dll
+C:\Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net5.0\Entity.pdb
+C:\Workspace\Branches\steelchemquality\steelchemquality\obj\Debug\net5.0\Entity.csprojAssemblyReference.cache

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity
+namespace steelchemquality
 {
     // 定義 UreaPlant 類別
     public class UreaPlant

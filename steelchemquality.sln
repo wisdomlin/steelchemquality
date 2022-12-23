@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33205.214
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "steelchemquality\Entity.csproj", "{9AED9A3A-EF9D-4F37-9BB9-4EC2C8EB54D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "steelchemquality\Entity.csproj", "{9AED9A3A-EF9D-4F37-9BB9-4EC2C8EB54D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity.Test", "Entity.Test\Entity.Test.csproj", "{25C7449C-222C-4CB4-879C-2BA62DD39A4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity.Test", "Entity.Test\Entity.Test.csproj", "{25C7449C-222C-4CB4-879C-2BA62DD39A4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCase", "UseCase\UseCase.csproj", "{0D62F621-72FA-4CFB-A818-3680D3EC7DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseCase", "UseCase\UseCase.csproj", "{0D62F621-72FA-4CFB-A818-3680D3EC7DA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCase.Test", "UseCase.Test\UseCase.Test.csproj", "{0600B0ED-B863-4341-AF04-67513F2D22C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseCase.Test", "UseCase.Test\UseCase.Test.csproj", "{0600B0ED-B863-4341-AF04-67513F2D22C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

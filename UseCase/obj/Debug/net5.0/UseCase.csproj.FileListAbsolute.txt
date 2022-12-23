@@ -1,0 +1,15 @@
+C:\Workspace\Branches\steelchemquality\UseCase\obj\Debug\net5.0\UseCase.csprojAssemblyReference.cache
+C:\Workspace\Branches\steelchemquality\UseCase\obj\Debug\net5.0\UseCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Branches\steelchemquality\UseCase\obj\Debug\net5.0\UseCase.AssemblyInfoInputs.cache
+C:\Workspace\Branches\steelchemquality\UseCase\obj\Debug\net5.0\UseCase.AssemblyInfo.cs
+C:\Workspace\Branches\steelchemquality\UseCase\obj\Debug\net5.0\UseCase.csproj.CoreCompileInputs.cache
+C:\Workspace\Branches\steelchemquality\UseCase\bin\Debug\net5.0\UseCase.deps.json
+C:\Workspace\Branches\steelchemquality\UseCase\bin\Debug\net5.0\UseCase.dll
+C:\Workspace\Branches\steelchemquality\UseCase\bin\Debug\net5.0\ref\UseCase.dll
+C:\Workspace\Branches\steelchemquality\UseCase\bin\Debug\net5.0\UseCase.pdb
+C:\Workspace\Branches\steelchemquality\UseCase\bin\Debug\net5.0\Entity.dll
+C:\Workspace\Branches\steelchemquality\UseCase\bin\Debug\net5.0\Entity.pdb
+C:\Workspace\Branches\steelchemquality\UseCase\obj\Debug\net5.0\UseCase.csproj.CopyComplete
+C:\Workspace\Branches\steelchemquality\UseCase\obj\Debug\net5.0\UseCase.dll
+C:\Workspace\Branches\steelchemquality\UseCase\obj\Debug\net5.0\ref\UseCase.dll
+C:\Workspace\Branches\steelchemquality\UseCase\obj\Debug\net5.0\UseCase.pdb
