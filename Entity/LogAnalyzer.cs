@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace steelchemquality
+namespace Entity
 
 {
     public class LogAnalyzer

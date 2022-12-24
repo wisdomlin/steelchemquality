@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
+using Entity;
 
-namespace steelchemquality
+namespace Entity.Test
 {
     class LogAnalyzerTest
     {

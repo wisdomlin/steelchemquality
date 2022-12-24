@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace steelchemquality
+namespace Entity
 {
     /// <summary>
     /// 定義 PlantComparer 類別

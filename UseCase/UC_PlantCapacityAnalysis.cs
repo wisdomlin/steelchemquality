@@ -1,7 +1,7 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Entity;
 
-namespace steelchemquality
+namespace UseCase
 {
     public class UC_PlantCapacityAnalysis
     {

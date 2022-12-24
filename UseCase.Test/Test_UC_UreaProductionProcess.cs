@@ -3,13 +3,13 @@ using UseCase;
 
 namespace UseCase.Test
 {
-    class Test_UC_PlantCapacityAnalysis
+    class Test_UC_UreaProductionProcess
     {
         [Test]
         public void Test_UC_01()
         {
             // Arrange
-            UC_PlantCapacityAnalysis UC = new UC_PlantCapacityAnalysis();
+            UC_UreaProductionProcess UC = new UC_UreaProductionProcess();
 
             // Act
             bool result;
