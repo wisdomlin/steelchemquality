@@ -18,10 +18,10 @@ namespace UseCase
             syngasGeneration.GenerateSyngas();
 
             AmmoniaSynthesis ammoniaSynthesis = new AmmoniaSynthesis();
-            ammoniaSynthesis.ProduceAmmonia();
+            ammoniaSynthesis.SynthesizeAmmonia();
 
             UreaSynthesisAndFinishing ureaSynthesisAndFinishing = new UreaSynthesisAndFinishing();
-            ureaSynthesisAndFinishing.SynthesizeAndFinishUrea();
+            ureaSynthesisAndFinishing.ProduceUrea();
 
             //result &= this.PrepareOriginalTs();
             return result;

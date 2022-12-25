@@ -45,6 +45,11 @@ namespace Entity
         // Oxygen properties
     }
 
+    public class Nitrogen
+    {
+        // Nitrogen properties
+    }
+
     public class WaterGasShift
     {
         // Water-gas shift catalyst properties
