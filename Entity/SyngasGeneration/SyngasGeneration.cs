@@ -10,54 +10,55 @@ namespace Entity
     {
         private NaturalGas naturalGas;
         private Steam steam;
-        private Hydrocarbons hydrocarbons;
-        private NickelCatalyst nickelCatalyst;
         private Air air;
         private Oxygen oxygen;
-        private WaterGasShift waterGasShift;
-        private CO2Removal co2Removal;
-        private CO2 co2;
-        private Methanation methanation;
+        private Nitrogen nitrogen;
+        private NickelCatalyst nickelCatalyst;
 
+        //private Reformer reformer;
+        //private WaterGasShift waterGasShift;
+        //private CO2Removal? co2Removal;
+        //private Methanation? methanation;
+
+        /// <summary>
+        /// The synthesis gas production by steam reforming of natural gas
+        /// </summary>
+        /// <returns></returns>
         public Syngas GenerateSyngas()
         {
             // Steam upgrading of natural gas
-            Syngas syngas = SteamUpgrading(naturalGas, steam, hydrocarbons, nickelCatalyst);
-
-            // Add air to introduce required nitrogen
-            syngas = AddAir(syngas, air, oxygen);
+            Syngas syngas = SteamReforming(naturalGas, steam, air, nickelCatalyst);
 
             // Perform water-gas shift to reduce CO content
-            syngas = WaterGasShift(syngas, waterGasShift);
+            syngas = WaterGasShift(syngas);
 
             // Remove CO2 through process of absorption and desorption
-            syngas = CO2Removal(syngas, co2Removal, co2);
+            syngas = CO2Removal(syngas);
 
             // Perform methanation to remove remaining CO and CO2
-            syngas = Methanation(syngas, methanation);
+            syngas = Methanation(syngas);
 
             return syngas;
         }
 
-        private Syngas SteamUpgrading(NaturalGas naturalGas, Steam steam, Hydrocarbons hydrocarbons, NickelCatalyst nickelCatalyst)
+        private Syngas SteamReforming(NaturalGas naturalGas, Steam steam, Air air, NickelCatalyst nickelCatalyst)
         {
+            Syngas syngas = new Syngas();
+
             // Conversion of hydrocarbons in natural gas to a mixture of H2, CO, CO2 and CH4
             // over a nickel catalyst
-            Syngas syngas = new Syngas();
             // ...
 
-            return syngas;
-        }
+            // By adding air, nitrogen is introduced in the amount needed for ammonia production.
+            // ...
 
-        private Syngas AddAir(Syngas syngas, Air air, Oxygen oxygen)
-        {
             // Introduction of oxygen from air to partially oxidize methane
             // ...
 
             return syngas;
         }
 
-        private Syngas WaterGasShift(Syngas syngas, WaterGasShift waterGasShift)
+        private Syngas WaterGasShift(Syngas syngas)
         {
             // Conversion of CO and steam to H2 and CO2 using a catalyst
             // to reduce CO content in the gas
@@ -66,19 +67,29 @@ namespace Entity
             return syngas;
         }
 
-        private Syngas CO2Removal(Syngas syngas, CO2Removal co2Removal, CO2 co2)
+        private Syngas CO2Removal(Syngas syngas)
         {
-            // Removal of CO2 from the gas and making it available in conditions
-            // and purity suitable for urea production
+            // The syngas now consists mostly of H2, N2 and CO2
+
+            // Syngas Cooling Down
             // ...
 
+            // CO2 is captured by absorption into an amine solution or potassium carbonate solution
+            // ...
+
+            // Removal of CO2 from the gas and making it available in conditions
+            // and purity suitable for urea production
             return syngas;
         }
 
-        private Syngas Methanation(Syngas syngas, Methanation methanation)
+        private Syngas Methanation(Syngas syngas)
         {
             // Conversion of remaining CO and CO2 to methane and water
             // over a nickel catalyst to remove oxygenates and clean the gas
+            // ...
+
+            // Water, the only remaining oxygen carrier, 
+            // is removed by condensation in the synthesis gas compression
             // ...
 
             return syngas;
