@@ -15,13 +15,13 @@ namespace UseCase
             bool result = true;
 
             SyngasGeneration syngasGeneration = new SyngasGeneration();
-            syngasGeneration.GenerateSyngas();
+            Syngas syngas = syngasGeneration.GenerateSyngas();
 
             AmmoniaSynthesis ammoniaSynthesis = new AmmoniaSynthesis();
-            ammoniaSynthesis.SynthesizeAmmonia();
+            Ammonia ammonia = ammoniaSynthesis.SynthesizeAmmonia(syngas);
 
             UreaSynthesisAndFinishing ureaSynthesisAndFinishing = new UreaSynthesisAndFinishing();
-            ureaSynthesisAndFinishing.ProduceUrea();
+            Urea urea = ureaSynthesisAndFinishing.ProduceUrea(ammonia);
 
             //result &= this.PrepareOriginalTs();
             return result;

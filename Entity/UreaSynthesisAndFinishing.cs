@@ -14,10 +14,10 @@ namespace Entity
         private CarbonDioxide carbonDioxide;
         private Ammonia ammonia;
 
-        public Urea ProduceUrea()
+        public Urea ProduceUrea(Ammonia ammonia)
         {
             // Synthesize urea from carbamate intermediate product
-            Urea urea = SynthesizeUrea(ammonia, carbonDioxide);
+            Urea urea = SynthesizeUrea(ammonia, carbonDioxide, ureaSynthesis);
 
             // Evaporate water from urea
             urea = EvaporateWater(urea);
@@ -28,7 +28,7 @@ namespace Entity
             return urea;
         }
 
-        private Urea SynthesizeUrea(Ammonia ammonia, CarbonDioxide carbonDioxide)
+        private Urea SynthesizeUrea(Ammonia ammonia, CarbonDioxide carbonDioxide, UreaSynthesis ureaSynthesis)
         {
             // 15 MPa 和 180 °C
             // Form intermediate product of carbamate from ammonia and carbon dioxide

@@ -19,10 +19,10 @@ namespace Entity
         private HydrogenSeparation hydrogenSeparation;
         private CompressionRefrigeration compressionRefrigeration;
 
-        public Ammonia SynthesizeAmmonia()
+        public Ammonia SynthesizeAmmonia(Syngas syngas)
         {
             // Feed synthesis gas to synthesis reactor at a pressure of 15-20 MPa
-            Ammonia ammonia = Synthesize(syngasCompressor, synthesisReactor);
+            Ammonia ammonia = Synthesize(syngas, syngasCompressor, synthesisReactor);
 
             // Recirculate unreacted components to maximize yield
             ammonia = Recirculate(ammonia);
@@ -42,7 +42,7 @@ namespace Entity
             return ammonia;
         }
 
-        private Ammonia Synthesize(SyngasCompressor syngasCompressor, SynthesisReactor synthesisReactor)
+        private Ammonia Synthesize(Syngas syngas, SyngasCompressor syngasCompressor, SynthesisReactor synthesisReactor)
         {
             // Synthesis of ammonia from synthesis gas in synthesis reactor
             Ammonia ammonia = new Ammonia();
