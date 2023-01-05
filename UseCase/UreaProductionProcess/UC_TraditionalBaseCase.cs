@@ -8,7 +8,7 @@ using Entity;
 
 namespace UseCase
 {
-    public class UC_UreaProductionProcess
+    public class UC_TraditionalBaseCase
     {
         public bool Run()
         {

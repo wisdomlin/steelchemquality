@@ -19,13 +19,52 @@ namespace Entity
         public double InternalUsage { get; set; }
     }
 
-    public class SteelMillGas
+    public class SteelMillGasMgr
     {
         public List<GasStream> GasStreams { get; set; }
 
-        public SteelMillGas()
+        public SteelMillGasMgr()
         {
             GasStreams = new List<GasStream>();
+            GasStreams.Add(new GasStream
+            {
+                Name = "Blast Furnace Gas",
+                VolumetricFlow = 1780_000,
+                CO = 25,
+                CO2 = 23,
+                N2 = 48,
+                H2 = 4,
+                CH4 = 0,
+                PowerPlantUsage = 60,
+                InternalUsage = 40
+            });
+
+            GasStreams.Add(new GasStream
+            {
+                Name = "Converter Gas",
+                VolumetricFlow = 98_000,
+                CO = 64,
+                CO2 = 17,
+                N2 = 14,
+                H2 = 5,
+                CH4 = 0,
+                PowerPlantUsage = 0,
+                InternalUsage = 100
+            });
+
+            GasStreams.Add(new GasStream
+            {
+                Name = "Coke Oven Gas",
+                VolumetricFlow = 152_000,
+                CO = 7,
+                CO2 = 2,
+                N2 = 6,
+                H2 = 63,
+                CH4 = 22,
+                PowerPlantUsage = 43,
+                InternalUsage = 57
+            });
+
         }
 
         public double GetTotalEqCO2FlowVol()
@@ -39,7 +78,6 @@ namespace Entity
             }
             return totalEqCO2FlowVol;
         }
-
         public double GetTotalCO2VolPercent()
         {
             double totalFlowVol = 0;
@@ -52,7 +90,6 @@ namespace Entity
             double totalFlowGasVolPercent = totalFlowGasVol / totalFlowVol * 100;
             return totalFlowGasVolPercent;
         }
-
         public double GetTotalCOVolPercent()
         {
             double totalFlowVol = 0;
@@ -65,7 +102,6 @@ namespace Entity
             double totalFlowGasVolPercent = totalFlowGasVol / totalFlowVol * 100;
             return totalFlowGasVolPercent;
         }
-
         public double GetTotalCH4VolPercent()
         {
             double totalFlowVol = 0;
@@ -78,7 +114,6 @@ namespace Entity
             double totalFlowGasVolPercent = totalFlowGasVol / totalFlowVol * 100;
             return totalFlowGasVolPercent;
         }
-
         public double GetTotalInternalUsagePercent()
         {
             double totalFlowVol = 0;
@@ -90,6 +125,17 @@ namespace Entity
             }
             int totalInternalUsagePercent = (int)(totalInternalUsage / totalFlowVol * 100);
             return totalInternalUsagePercent;
+        }
+
+        public double GetTotalFlowVol_PowerPlantUsage()
+        {
+            double totalFlowVol = 0;
+            foreach (var gasStream in GasStreams)
+            {
+                totalFlowVol += gasStream.VolumetricFlow * (gasStream.PowerPlantUsage / 100);
+            }
+            //int totalInternalUsagePercent = (int)(totalInternalUsage / totalFlowVol * 100);
+            return totalFlowVol;
         }
     }
 }
