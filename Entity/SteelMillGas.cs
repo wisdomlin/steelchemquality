@@ -66,6 +66,11 @@ namespace Entity
             return totalFlowGasVolPercent;
         }
 
+        public double GetTotalEqCO2FlowMass()
+        {
+            throw new NotImplementedException();
+        }
+
         public double GetTotalCH4VolPercent()
         {
             double totalFlowVol = 0;
