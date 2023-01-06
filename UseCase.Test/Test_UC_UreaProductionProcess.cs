@@ -9,7 +9,7 @@ namespace UseCase.Test
         public void Test_UC_01()
         {
             // Arrange
-            UC_UreaProductionProcess UC = new UC_UreaProductionProcess();
+            UC_TraditionalBaseCase UC = new UC_TraditionalBaseCase();
 
             // Act
             bool result;

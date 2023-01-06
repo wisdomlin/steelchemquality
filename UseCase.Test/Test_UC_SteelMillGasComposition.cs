@@ -6,7 +6,7 @@ namespace UseCase.Test
     class Test_UC_SteelMillGasComposition
     {
         [Test]
-        public void Test_UC_01()
+        public void Test_MillGasMgrConstrAndGetFunction()
         {
             // Arrange
             UC_SteelMillGasComposition UC = new UC_SteelMillGasComposition();

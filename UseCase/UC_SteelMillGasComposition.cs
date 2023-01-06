@@ -15,8 +15,9 @@ namespace UseCase
         {
             bool result = true;
 
-            var steelMillGas = new SteelMillGas();
+            var MillGasMgr = new SteelMillGasMgr();
 
+<<<<<<< HEAD
             steelMillGas.GasStreams.Add(new GasStream
             {
                 Name = "Blast Furnace Gas",
@@ -57,6 +58,12 @@ namespace UseCase
             });
 
             double totalCOVolPercent = steelMillGas.GetTotalCOVolPercent();
+=======
+            double totalCO2VolPercent = MillGasMgr.GetTotalCO2VolPercent();
+            double totalCOVolPercent = MillGasMgr.GetTotalCOVolPercent();
+            double totalCH4VolPercent = MillGasMgr.GetTotalCH4VolPercent();
+            Assert.AreEqual(21, totalCO2VolPercent, 1);
+>>>>>>> b7f554ab6489734c266ea9b4245b9fa152e1df51
             Assert.AreEqual(26, totalCOVolPercent, 1);
 
             double totalCO2VolPercent = steelMillGas.GetTotalCO2VolPercent();
@@ -65,15 +72,19 @@ namespace UseCase
             double totalCH4VolPercent = steelMillGas.GetTotalCH4VolPercent();
             Assert.AreEqual(2, totalCH4VolPercent, 1);
 
+<<<<<<< HEAD
             double totalEqCO2FlowVol = steelMillGas.GetTotalEqCO2FlowVol();
             Assert.AreEqual(994700, totalEqCO2FlowVol, 15000);  //  Nm^(3)h^(−1)
 
             double totalEqCO2FlowMass = steelMillGas.GetTotalEqCO2FlowMass();
             Assert.AreEqual(1950, totalEqCO2FlowMass, 150);  //  tonh^(−1) 
+=======
+            double totalEqCO2FlowVol = MillGasMgr.GetTotalEqCO2FlowVol();
+            Assert.AreEqual(994700, totalEqCO2FlowVol, 15000);  //  Nm3h−1 
+>>>>>>> b7f554ab6489734c266ea9b4245b9fa152e1df51
 
-            double totalInternalUsage = steelMillGas.GetTotalInternalUsagePercent();
+            double totalInternalUsage = MillGasMgr.GetTotalInternalUsagePercent();
             Assert.AreEqual(45, totalInternalUsage, 1);
-            //Console.WriteLine($"Total internal usage: {totalInternalUsage}%");
 
             //result &= this.PrepareOriginalTs();
             return result;
