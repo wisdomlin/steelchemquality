@@ -14,10 +14,21 @@ namespace UseCase
         {
             bool result = true;
 
-            var MillGasMgr = new SteelMillGasMgr();
-
+            var MillGasMgr = new MillGasMgr();
             //MillGasMgr.GetVolFlowFor
 
+            //// 建立新的 PSA 物件，並將 Coke Oven Gas 設為輸入氣體流
+            //GasStream cokeOvenGas = MillGasMgr.GasStreams[0];
+            //PSA psa = new PSA(cokeOvenGas);
+
+            //// 執行分離
+            //psa.Separate();
+
+            //// 取得分離後的兩個輸出氣體流
+            //GasStream output1 = psa.OutputStream1;
+            //GasStream output2 = psa.OutputStream2;
+
+           
 
             //SynthesisGasGeneration();
 

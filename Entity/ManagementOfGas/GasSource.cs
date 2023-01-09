@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    public class GasStream
+    public class GasSource
     {
         public string Name { get; set; }
         // PV=nRT: P, V, T
@@ -19,5 +19,8 @@ namespace Entity
         public double N2 { get; set; }
         public double H2 { get; set; }
         public double CH4 { get; set; }
+        // Usage
+        public double PowerPlantUsage { get; set; }
+        public double InternalUsage { get; set; }
     }
 }

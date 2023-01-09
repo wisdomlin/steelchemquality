@@ -11,15 +11,23 @@ namespace UseCase
 {
     public class UC_SteelMillGasComposition
     {
+        public double totalCOVolPercent;
+        public double totalCO2VolPercent;
+        public double totalCH4VolPercent;
+        public double totalEqCO2FlowVol;
+        public double totalEqCO2FlowMass;
+
         public bool Run()
         {
             bool result = true;
 
             var MillGasMgr = new MillGasMgr();
 
-            MillGasMgr.GasStreams.Add(new GasStream
+            MillGasMgr.Dic_GasSources.Add("Blast Furnace Gas", new GasSource
             {
                 Name = "Blast Furnace Gas",
+                PowerPlantUsage = 60,
+                InternalUsage = 40,
                 VolumetricFlow = 1780_000,
                 CO = 25,
                 CO2 = 23,
@@ -27,10 +35,11 @@ namespace UseCase
                 H2 = 4,
                 CH4 = 0
             });
-
-            MillGasMgr.GasStreams.Add(new GasStream
+            MillGasMgr.Dic_GasSources.Add("Converter Gas", new GasSource
             {
                 Name = "Converter Gas",
+                PowerPlantUsage = 0,
+                InternalUsage = 100,
                 VolumetricFlow = 98_000,
                 CO = 64,
                 CO2 = 17,
@@ -38,10 +47,11 @@ namespace UseCase
                 H2 = 5,
                 CH4 = 0
             });
-
-            MillGasMgr.GasStreams.Add(new GasStream
+            MillGasMgr.Dic_GasSources.Add("Coke Oven Gas", new GasSource
             {
                 Name = "Coke Oven Gas",
+                PowerPlantUsage = 43,
+                InternalUsage = 57,
                 VolumetricFlow = 152_000,
                 CO = 7,
                 CO2 = 2,
@@ -50,21 +60,13 @@ namespace UseCase
                 CH4 = 22
             });
 
-            double totalCOVolPercent = MillGasMgr.GetTotalCOVolPercent();
-            Assert.AreEqual(26, totalCOVolPercent, 1);  // %
-
-            double totalCO2VolPercent = MillGasMgr.GetTotalCO2VolPercent();
-            Assert.AreEqual(21, totalCO2VolPercent, 1);  // %
-
-            double totalCH4VolPercent = MillGasMgr.GetTotalCH4VolPercent();
-            Assert.AreEqual(2, totalCH4VolPercent, 1);  // %
+            totalCOVolPercent = MillGasMgr.GetTotalCOVolPercent();
+            totalCO2VolPercent = MillGasMgr.GetTotalCO2VolPercent();
+            totalCH4VolPercent = MillGasMgr.GetTotalCH4VolPercent();
 
             // Equivalent CO2 includes CO, CO2, and CH4.
-            double totalEqCO2FlowVol = MillGasMgr.GetTotalEqCO2FlowVol();
-            Assert.AreEqual(994700, totalEqCO2FlowVol, 15000);  //  Nm^(3)h^(−1)
-
-            double totalEqCO2FlowMass = MillGasMgr.GetTotalEqCO2FlowMass();
-            Assert.AreEqual(1950, totalEqCO2FlowMass, 150);  //  tonh^(−1) 
+            totalEqCO2FlowVol = MillGasMgr.GetTotalEqCO2FlowVol();
+            totalEqCO2FlowMass = MillGasMgr.GetTotalEqCO2FlowMass();
 
             //double totalInternalUsage = MillGasMgr.GetTotalInternalUsagePercent();
             //Assert.AreEqual(45, totalInternalUsage, 1);  // %
