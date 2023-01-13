@@ -14,13 +14,13 @@ namespace Entity
         public double Temperature { get; set; }
         public double Pressure { get; set; }
         // Composition (%), n
+        // TODO: 也許有一天，Composition 也要用 DicComposition
         public double CO { get; set; }
         public double CO2 { get; set; }
         public double N2 { get; set; }
         public double H2 { get; set; }
         public double CH4 { get; set; }
         // Usage
-        public double PowerPlantUsage { get; set; }
-        public double InternalUsage { get; set; }
+        public Dictionary<string, double> DicUsage { get; set; }
     }
 }
